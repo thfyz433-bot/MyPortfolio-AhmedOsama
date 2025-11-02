@@ -4,7 +4,7 @@ export const MainData=[
         img:"../website.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-         type:['css' ],
+         type:['css' , 'Responsev'],
     },
 
      {

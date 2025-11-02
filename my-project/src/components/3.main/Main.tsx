@@ -85,6 +85,31 @@ export default function Main() {
               React & Tailwind</button>
               
 {/* ============================================================================================ */}
+
+
+
+
+
+            <button  onClick={() => { 
+              setsactive('No Responsev')
+               const newArr4= MainData.filter((item)=>{
+
+                const css5 = item.type.find((item)=>{
+                  
+                  return item === 'Responsev'
+
+                });
+
+                  return css5 === 'Responsev'
+                  
+                });
+                setarr(newArr4)
+             }} className={active === 'No Responsev'? "active" : '' }>
+              
+              No Responsev</button>
+              
+{/* ============================================================================================ */}
+  
          </section>
 
          <section className='section-right  flex'>

@@ -32,7 +32,11 @@ export default function Navbar() {
 
         setshowModal(true);
        }}><LuMenu /></button>
+
+
     <div/>
+
+
        <nav>
           <ul className='flex'>
             <li><a href="#home">Home</a></li>
@@ -42,6 +46,7 @@ export default function Navbar() {
             <li><a href="#navbar">NavBar</a></li>
           </ul>
        </nav>
+       
        <button onClick={() => { 
 
                       //  send value to ls
