@@ -8,7 +8,7 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xkgpokjb");
   
   return (
-    <section className='contact-us'>
+    <section id='Contact Us' className='contact-us'>
         
          <h1 className='h1'> 
                <span><FaEnvelope/></span>

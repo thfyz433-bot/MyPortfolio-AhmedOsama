@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 export default function Hero() {
   return (
-    <section className='hero flex'>
+    <section id='home' className='hero flex'>
         <div className="left-section ">
            <div className="parent-img">
           <img src="../myimg.jpg" className='img' alt="" />
@@ -25,11 +25,11 @@ export default function Hero() {
 
         <div className="icons flex">
 
-          <div className="icon"><FaTwitter/></div>
-          <div className="icon"><FaInstagram/></div>
-          <div className="icon"><FaGithub/></div>
-          <div className="icon"><FaLinkedin/></div>
-
+         <a href=""><div className="icon"><FaTwitter/></div></a> 
+         <a href=""><div className="icon"><FaInstagram/></div></a> 
+         <a href="https://github.com/thfyz433-bot" target='blank'><div className="icon"><FaGithub/></div></a> 
+         <a href=""><div className="icon"><FaLinkedin/></div></a> 
+         
         </div>
 
         </div>

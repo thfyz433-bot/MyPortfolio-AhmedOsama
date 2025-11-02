@@ -1,15 +1,16 @@
 import './main.css'
-import { FaLink } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import { MainData } from './MainData';
 import { useState } from 'react';
+import { FaLinkedin } from "react-icons/fa";
+
 export default function Main() {
  const [active, setsactive] = useState('all');
  const [arr, setarr] = useState(MainData);
  
   return (
-    <main className='main flex'>
+    <main id='projects' className='main flex'>
          
          <section className='section-left  flex'>
 
@@ -30,12 +31,15 @@ export default function Main() {
             <button  onClick={() => { 
               setsactive('css');
                 const newArr2 =MainData.filter((item)=>{
-                  return item.type === 'css'
-                  
 
+                    const css = item.type.find((item)=>{
+                     return item === 'css'
+                  });
+
+                  return css === 'css'
                   
                   
-                })
+                });
              setarr(newArr2)   
 
              }} className={active === 'css'? "active" : ''  } >
@@ -47,8 +51,14 @@ export default function Main() {
             <button onClick={() => { 
                       setsactive('javascript')
                 const newArr3= MainData.filter((item)=>{
-                  return item.type === 'java' 
-                })
+                    
+                const css1 = item.type.find((item)=>{
+                     return item === 'java'
+                  });
+
+                  return css1 === 'java'
+
+                });
                 setarr(newArr3)
              }} className={active === 'javascript'? "active" : '' }> 
              
@@ -59,8 +69,16 @@ export default function Main() {
             <button  onClick={() => { 
               setsactive('react')
                const newArr4= MainData.filter((item)=>{
-                  return item.type === 'react'
-                })
+
+                const css2 = item.type.find((item)=>{
+                  
+                  return item === 'react'
+
+                });
+
+                  return css2 === 'react'
+                  
+                });
                 setarr(newArr4)
              }} className={active === 'react'? "active" : '' }>
               
@@ -85,8 +103,8 @@ export default function Main() {
                    <div className="icons flex">
 
                     <div >
-                       <span className="icon1"><FaLink/></span>
-                       <span className="icon2"><FaGithub/></span>
+                       <span className="icon1">< FaLinkedin/></span>
+                      <a href="https://github.com/thfyz433-bot" target='blank'> <span className="icon2"><FaGithub/></span></a>
                        </div>
 
                        <a href='' className='flex'>more<FaArrowRight /></a>

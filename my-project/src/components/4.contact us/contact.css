@@ -16,6 +16,9 @@
       font-size: 2.1rem;
       margin-bottom: 1rem;
 }
+.icons a{
+    all: unset;
+}
 
 .contact-us p{
     color: var(--subtitle);
@@ -122,6 +125,19 @@
     .animation{
         display: none;
     }
+.animation-message{
+   all: unset;
+   
+   width: 100px;
+   height: 50px;
+    
+}
+.submit-button{
+    all: unset;
+    margin: auto;
+    font-size: 15.5px;
+    font-weight: 700;
+}
      .contact-us form .submit{
         width: 30%;
         margin: auto;

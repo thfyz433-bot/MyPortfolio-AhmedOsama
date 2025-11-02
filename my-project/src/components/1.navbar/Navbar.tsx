@@ -26,7 +26,7 @@ export default function Navbar() {
   },[moode]);
 
   return (
-    <header className='flex'>
+    <header id='navbar' className='flex'>
       <button  className='menu' onClick={( )=> {
        
 
@@ -35,11 +35,11 @@ export default function Navbar() {
     <div/>
        <nav>
           <ul className='flex'>
-            <li><a href="">About</a></li>
-            <li><a href="">Article</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Speaking</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+            <li><a href="#foter">Foter</a></li>
+            <li><a href="#navbar">NavBar</a></li>
           </ul>
        </nav>
        <button onClick={() => { 
@@ -64,11 +64,11 @@ export default function Navbar() {
                 setshowModal(false)
               }} ><IoMdClose /></button>
               </li>            
-             <li><a href="">About</a></li>
-            <li><a href="">Article</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Speaking</a></li>
-            <li><a href="">Contact</a></li>
+             <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+            <li><a href="#foter">Foter</a></li>
+            <li><a href="#navbar">NavBar</a></li>
           
           </ul>
       </div>

@@ -4,6 +4,7 @@ export const MainData=[
         img:"../website.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
+         type:['css' ],
     },
 
      {
@@ -11,7 +12,8 @@ export const MainData=[
         img:"../website2.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-        type: 'css',
+        type: ['css' , 'java'],
+       
     },
 
      {
@@ -19,7 +21,8 @@ export const MainData=[
         img:"../website3.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-        type: 'css',
+        type:['react'],
+       
 
 
     },
@@ -29,7 +32,7 @@ export const MainData=[
         img:"../website4.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-        type: 'two',
+        type: ['react'],
        
     },
 
