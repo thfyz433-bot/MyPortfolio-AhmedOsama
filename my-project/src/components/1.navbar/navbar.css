@@ -1,0 +1,170 @@
+/* table of content */
+
+
+/* header design */
+
+
+header ul{
+    gap: 16px;
+}
+
+header ul li a{
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.88;
+    font-weight: 500;
+}
+
+header ul li a:hover{
+    opacity: 1;
+    font-size: 0.9rem;
+    color: var(--blue);
+
+}
+
+header button{
+    font-size: 1.2rem;
+}
+
+header{
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    margin-top: 1.2rem;
+    
+}
+
+.modal li:first-child{
+    text-align: right;
+    border: none;
+     padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+header nav{
+    background-color: var(--bgheader);
+    padding: 0.77rem 1.6rem;
+    border-radius: 55px;
+    box-shadow: 1px 1px 10px rgba(94, 93, 93, 0.893);
+    
+}
+
+.modal{
+    width: 75%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    background: var(--secondary);
+    animation: icon 0.7s 1;
+}
+
+header div.fixed li{
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.721);
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+header div.fixed li:last-child{
+    border: none;
+}
+
+header div.fixed li a{
+    font-size: 1rem;
+}
+
+
+/* ======================
+      icon button
+ ====================== */
+
+header .menu2 svg{
+    
+    background:var(--bgheader);
+     padding: 7px;
+    height: 2.4rem;
+    width: 2.4rem;
+    border: none;
+    border-radius: 50px;
+    color: var(--subtitle);
+    border: 1px solid rgba(250, 128, 114, 0.233);
+    transition: all 0.2s ease;
+}
+
+header .menu2 .sun svg{
+    color: orange;
+}
+
+header .menu svg{
+     background:var(--bgheader);
+     padding: 7px;
+    height: 2.4rem;
+    width: 2.4rem;
+    border: none;
+    border-radius: 50px;
+    color: var(--subtitle);
+    border: 1px solid rgba(250, 128, 114, 0.233);
+    transition: all 0.2s ease;
+}
+
+header .menu2 .moon svg:hover{
+  border: 1px solid rgba(255, 220, 210, 0.409);
+  color: var(--title);
+}
+
+header .menu svg:hover{
+     border: 1px solid rgba(255, 220, 210, 0.409);
+  color: var(--title);
+}
+
+header .menu svg:active{
+    scale: 0.70;
+}
+.menu2 svg:active{
+    scale: 0.70;
+}
+ .modal .li-button button{
+    font-size: 1.3rem;
+  color: var(--subtitle);
+  transition: all 0.3s ease;
+  font-weight: 900;
+  margin-bottom: -2rem;
+}
+
+ .modal .li-button button:hover{
+    font-size: 1.6rem;
+    color: crimson;
+  rotate: 180deg;
+  font-weight: 900;
+
+
+ }
+
+/* modal==pop up */
+
+.fixed{
+   position: fixed;
+ 
+   inset: 0;
+   background-color: rgba(43, 43, 52, 0.669);
+   backdrop-filter: blur(5px);
+}
+
+.menu{
+    display: none;
+}
+
+
+@keyframes icon{
+    0%{scale:0;}
+    60%{scale: 1.2;}
+    100%{scale:1;}
+}
+
+@media (max-width:700px){
+     header nav{display: none;}
+     
+.menu{
+    display: block;
+}
+
+}

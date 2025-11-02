@@ -1,0 +1,183 @@
+/* ===========================================
+                 section main
+=========================================== */
+
+.main {
+    gap: 1.50rem;
+    align-items: start;
+}
+
+.card, img{
+    border: 1px solid rgb(93, 188, 252 ,0.3);
+    border-radius: 5px;
+    background-image:linear-gradient(#ffffff10,#ffffff10) ;
+
+}
+
+.light .card, img {
+    border: none;
+}
+
+
+.card:hover, img:hover{
+    border: 1px solid var(--blue);
+     transition: 0.3s;
+     rotate: 1deg;
+     scale: 1.01;
+     cursor:  pointer;
+}
+
+.light .card:hover, img:hover{
+       border: none;
+      box-shadow: 1px 1px 10px rgba(94, 93, 93, 0.893);
+
+}
+
+
+
+
+/* ===========================================
+                 section-left
+=========================================== */
+
+
+.main .section-left{
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.main .section-left button{
+    background-color: rgba(36, 37, 46, 1);
+    width: 11rem;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    opacity: 0.5;
+    color: rgb(244 244 245) ;
+}
+
+.light .main .section-left button.active {
+    border: 1px solid #000;
+
+}
+.main .section-left button:active{
+    scale: 0.90;
+
+}
+
+.main .section-left button:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.main .section-left button.active{
+    opacity: 1;
+    font-weight: bold;
+    border: 1px solid var(--blue);
+    padding: 0.8rem 0;
+    letter-spacing: 0.6px;
+}
+
+
+
+
+/* ===========================================
+                 section-right
+=========================================== */
+
+.main .section-right .box{
+    padding: 0.50rem 0.4rem;
+}
+
+
+.main .section-right{
+    flex-wrap: wrap;
+    /* gap: 16px; */
+    column-gap: 14px;
+    row-gap: 20px;
+    justify-content: center;
+    text-transform:capitalize ;
+    flex-grow: 1;
+}
+
+
+
+.main .section-right .box h2{
+    color: var(--title);
+}
+
+.main .section-right .box p{
+    color: var(--subtitle);
+    font-size: 12px;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+}
+
+/* ===========================================
+                    icons
+=========================================== */
+
+.main .section-right .box .icons{
+    justify-content: space-between;
+    
+}
+
+
+
+.main .section-right .icons .icon1,.icon2{
+
+    margin: 0 5px;
+    font-size: 1.2rem;
+    color: var(--subtitle);
+}
+
+.main .section-right .icons .icon1:hover,.icon2:hover{
+           color: var(--icon-hover);
+           font-size: 1.3rem;
+           cursor: pointer;
+}
+
+.main .section-right .box a.flex{
+    color: var(--blue);
+    gap: 3px;
+    margin-right: 10px;
+}
+
+
+
+
+.main .section-right .box a.flex svg{
+    margin-top: 2px;
+}
+
+.main .section-right .box a.flex:active{
+    scale: 0.90;
+}
+
+/* ================================================ */
+                   /* responsiv */
+/* ================================================ */
+
+@media (max-width:600px){
+   .main{
+    flex-direction: column;
+    align-items: center;
+   }
+.main .section-left{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main .section-left button{
+   
+    width: 9rem;
+    
+    padding: 10px 0;
+    font-size: 14px;
+   
+}
+
+}

@@ -1,0 +1,83 @@
+
+
+
+/* =====================
+       left-section
+   ===================== */
+
+
+.hero .left-section{
+    flex-grow: 1;
+}
+
+.hero {
+    margin-top: 3rem;
+}
+
+.hero .left-section .img{
+    width: 100px;
+    border-radius: 50%;
+    border:solid 1px rgba(127, 123, 123, 0.553);
+    padding: 0px;
+    box-shadow: 1px 1px 10px rgb(111, 111, 111);
+    margin-right: 5px;
+}
+
+.hero .left-section span svg{
+    color: var(--blue);
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+
+/* ====================================
+               title
+   ==================================== */
+
+.hero .title{
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    margin: 25px 0;
+    color: var(--title);
+}
+
+
+.hero .sub-title{
+    color: var(--subtitle);
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+   /* ========================================
+                   icons
+      ======================================== */
+
+.hero .icons{
+   font-size: 1.3rem;
+   gap: 1.5rem;
+   color: var(--subtitle);
+}
+
+.hero .icon{
+   transition: all 0.3s ease;
+
+}
+
+.hero .icon:hover{
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--icon-hover);
+}
+
+/* ====================================
+        section reght && animation
+   ==================================== */
+
+.right-section-animation{
+   width: 1200px;
+   /* width: 100%; */
+   height: 300px;
+   padding: 0;
+   margin: 0;
+}

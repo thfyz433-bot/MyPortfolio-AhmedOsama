@@ -1,0 +1,36 @@
+.foter {
+    justify-content: space-between;
+    color: var(--subtitle);
+    text-transform: capitalize;
+    margin-bottom: 1.9rem;
+}
+
+.foter ul{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.foter ul a{
+    color: var(--subtitle);
+    font-weight: 600;
+}
+
+.foter ul li:active{
+    scale: 0.95;
+     
+}
+
+.foter ul li a:hover{
+    color: var(--blue);
+
+    transition: 0.3s;
+}
+
+
+@media (max-width:800px){
+    .foter{
+        flex-direction: column;
+        line-height: 40px;
+    }
+}
