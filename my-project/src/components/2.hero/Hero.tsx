@@ -28,7 +28,7 @@ export default function Hero() {
          <a href=""><div className="icon"><FaTwitter/></div></a> 
          <a href=""><div className="icon"><FaInstagram/></div></a> 
          <a href="https://github.com/thfyz433-bot" target='blank'><div className="icon"><FaGithub/></div></a> 
-         <a href=""><div className="icon"><FaLinkedin/></div></a> 
+         <a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-osama-0a2118391/ " target='blank'><div className="icon"><FaLinkedin/></div></a> 
          
         </div>
 
