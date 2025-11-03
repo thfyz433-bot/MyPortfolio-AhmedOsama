@@ -150,6 +150,9 @@
 
 .main .section-right .box a.flex svg{
     margin-top: 2px;
+    margin: 5px;
+    position: relative;
+    top: 8px;
 }
 
 .main .section-right .box a.flex:active{

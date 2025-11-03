@@ -132,7 +132,7 @@ export default function Main() {
                       <a href="https://github.com/thfyz433-bot" target='blank'> <span className="icon2"><FaGithub/></span></a>
                        </div>
 
-                       <a href='' className='flex'>more<FaArrowRight /></a>
+                       <a href={item.link}  target='blank' className='flex'>more<FaArrowRight /></a>
                    </div>
                     </div>
                   </article>

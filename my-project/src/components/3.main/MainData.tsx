@@ -5,6 +5,7 @@ export const MainData=[
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
          type:['css' , 'Responsev'],
+         link:'https://poject-covienn-cov-dom.vercel.app/#contact'
     },
 
      {
@@ -12,8 +13,8 @@ export const MainData=[
         img:"../website2.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-        type: ['css' , 'java'],
-       
+        type: ['css' , 'java' ],
+        link:'https://courses-dom-js.vercel.app'
     },
 
      {
@@ -21,8 +22,8 @@ export const MainData=[
         img:"../website3.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-        type:['react'],
-       
+        type:['react' ],
+        link:"https://my-portfolio-ahmed-osama-gilt.vercel.app"
 
 
     },
@@ -32,8 +33,8 @@ export const MainData=[
         img:"../website4.png",
         title: 'landing page2',
         description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
-        type: ['react'],
-       
+        type: ['react' , 'Responsev'],
+         link: 'https://courses-react-black.vercel.app/'
     },
 
     
