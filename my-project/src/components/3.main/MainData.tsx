@@ -2,8 +2,8 @@ export const MainData=[
     {
         id:1,
         img:"../website.png",
-        title: 'landing page2',
-        description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
+        title: 'caffeine cove',
+        description:'"Coffeien Cove"  ☕This project serves as an example of a Static Layout User Interface, built entirely using pure HTML and CSS only.',
          type:['css' , 'Responsev'],
          link:'https://poject-covienn-cov-dom.vercel.app/#contact'
     },
@@ -11,8 +11,8 @@ export const MainData=[
      {
         id:2,
         img:"../website2.png",
-        title: 'landing page2',
-        description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
+        title: 'come here',
+        description:'Come Here 💻This project is an E-Learning platform focused on delivering Arabic programming courses',
         type: ['css' , 'java' ],
         link:'https://courses-dom-js.vercel.app'
     },
@@ -20,8 +20,8 @@ export const MainData=[
      {
         id:3,
         img:"../website3.png",
-        title: 'landing page2',
-        description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
+        title: 'portfolio',
+        description:'(Portfolio) ✨  This is my largest and real project that encompasses all my experimental projects',
         type:['react' ],
         link:"https://my-portfolio-ahmed-osama-gilt.vercel.app"
 
@@ -31,8 +31,8 @@ export const MainData=[
      {
         id:4,
         img:"../website4.png",
-        title: 'landing page2',
-        description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,doloremque minus praesentium harum ducimus eum.',
+        title: 'EduBridge',
+        description:'EduBridge💻This project is a modern, component-based user interface for an educational platform, developed using React',
         type: ['react' , 'Responsev'],
          link: 'https://courses-react-black.vercel.app/'
     },
