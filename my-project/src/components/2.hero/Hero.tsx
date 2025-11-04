@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="icons flex">
 
          <a href="https://api.whatsapp.com/send/?phone=201060170429&text&type=phone_number&app_absent=0" target='blank'><div className="icon"><FaWhatsapp/></div></a> 
-         <a href="https://www.fiverr.com/ahmed_dev95/buying?source=avatar_menu_profile" target='blank'><div className="icon">< SiFiverr/></div></a> 
+         <a href="https://www.fiverr.com/ahmed_dev95/buying?source=avatar_menu_profile" target='blank'><div className="icon" style={{fontSize:'30px'}}>< SiFiverr/></div></a> 
          <a href="https://github.com/thfyz433-bot" target='blank'><div className="icon"><FaGithub/></div></a> 
          <a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-osama-0a2118391/ " target='blank'><div className="icon"><FaLinkedin/></div></a> 
          
