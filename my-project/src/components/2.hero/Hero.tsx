@@ -1,8 +1,8 @@
 
 import './hero.css'
 import { MdVerified } from "react-icons/md";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { FaGithub } from "react-icons/fa";
@@ -25,8 +25,8 @@ export default function Hero() {
 
         <div className="icons flex">
 
-         <a href=""><div className="icon"><FaTwitter/></div></a> 
-         <a href=""><div className="icon"><FaInstagram/></div></a> 
+         <a href="https://api.whatsapp.com/send/?phone=201060170429&text&type=phone_number&app_absent=0" target='blank'><div className="icon"><FaWhatsapp/></div></a> 
+         <a href="https://www.fiverr.com/ahmed_dev95/buying?source=avatar_menu_profile" target='blank'><div className="icon">< SiFiverr/></div></a> 
          <a href="https://github.com/thfyz433-bot" target='blank'><div className="icon"><FaGithub/></div></a> 
          <a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-osama-0a2118391/ " target='blank'><div className="icon"><FaLinkedin/></div></a> 
          

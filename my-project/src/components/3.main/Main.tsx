@@ -128,7 +128,7 @@ export default function Main() {
                    <div className="icons flex">
 
                     <div >
-                      <a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-osama-0a2118391/ "><span className="icon1">< FaLinkedin/></span></a> 
+                      <a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-osama-0a2118391/ " target='blank'><span className="icon1">< FaLinkedin/></span></a> 
                       <a href="https://github.com/thfyz433-bot" target='blank'> <span className="icon2"><FaGithub/></span></a>
                        </div>
 
