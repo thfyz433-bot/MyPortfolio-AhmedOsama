@@ -32,7 +32,7 @@ export const MainData=[
         id:4,
         img:"../website4.png",
         title: 'EduBridge',
-        description:'EduBridge💻This project is a modern, component-based user interface for an educational platform, developed using React',
+        description:'EduBridge💻This project is a modern, developed using React',
         type: ['react' , 'Responsev'],
          link: 'https://courses-react-black.vercel.app/'
     },
