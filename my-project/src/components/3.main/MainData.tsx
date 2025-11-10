@@ -37,6 +37,14 @@ export const MainData=[
          link: 'https://courses-react-black.vercel.app/'
     },
 
+{
+        id:5,
+        img:"/Screenshot (267).png",
+        title: 'Bean Scene',
+        description:'Bean Scene✨: Modern and cozy cafe landing page',
+        type: ['react' , 'Responsev'],
+         link: 'https://bean-scene-nu.vercel.app/#'
+    },
     
     
 ]
